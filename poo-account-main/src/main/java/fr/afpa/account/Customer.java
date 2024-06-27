@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Customer {
 
-    // TODO compléter la classe
+    // compléter la classe
     // Declarer les attributs
 
     private int id;
@@ -49,7 +49,7 @@ public class Customer {
         this.lastName = lastName;
     }
 
-    public String ToString() {
+    public String toString() {
         return "Client {"
                 + "identifiant" + getId()
                 + "Prenom" + getFirstName()
